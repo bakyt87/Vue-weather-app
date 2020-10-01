@@ -1,12 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Weather App</a>
+ </nav>
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </div>
+    </div> -->
+    <main class="container mt-2">
     <router-view/>
+    </main>
   </div>
 </template>
+
 
 <style>
 #app {
