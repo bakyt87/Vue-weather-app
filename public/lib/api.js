@@ -11,9 +11,11 @@ function getCity(loc){
     return fetch('https://api.weatherbit.io/v2.0/current?city=' + loc + ',CA&key=' + API_KEY )
     .then(res => res.json())
 }
+
 export default {
     getForecast,
     getCity
+    
     
 };
 
